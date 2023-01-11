@@ -41,3 +41,20 @@
   justify-self: center;
   padding-bottom: 3.125rem;
 }
+
+.courses {
+  margin-bottom: 5rem;
+  &__list {
+    display: grid;
+    row-gap: 1rem;
+    padding: 0;
+  }
+
+  &__card {
+    padding: 3.5rem 1.75rem 2rem;
+
+    &--accent {
+      padding: 1.5rem 1.75rem 2rem;
+    }
+  }
+}
