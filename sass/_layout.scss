@@ -25,6 +25,7 @@
 }
 
 .hero {
+  max-width: 28.5625rem;
   padding-top: 2.375rem;
   padding-bottom: 1.875rem;
 
@@ -34,4 +35,9 @@
   &__text {
     margin-bottom: 1.5rem;
   }
+}
+
+.stats-img {
+  justify-self: center;
+  padding-bottom: 3.125rem;
 }
