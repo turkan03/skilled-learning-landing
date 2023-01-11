@@ -96,6 +96,19 @@ body {
   left: 1.75rem;
   top: -12%;
 }
+.card__link {
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+}
+.card__link:link, .card__link:visited {
+  color: #f74780;
+  transition: color 300ms;
+}
+.card__link:focus, .card__link:hover, .card__link:active {
+  color: #ffa7c3;
+}
 
 footer {
   background-color: #13183f;

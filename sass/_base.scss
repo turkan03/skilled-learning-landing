@@ -113,6 +113,25 @@ body {
     left: 1.75rem;
     top: -12%;
   }
+
+  &__link {
+    text-decoration: none;
+    font-size: $p-medium;
+    font-weight: 700;
+    line-height: $p-line;
+
+    &:link,
+    &:visited {
+      color: $pink;
+      transition: color 300ms;
+    }
+
+    &:focus,
+    &:hover,
+    &:active {
+      color: $pastel-pink;
+    }
+  }
 }
 
 // footer
