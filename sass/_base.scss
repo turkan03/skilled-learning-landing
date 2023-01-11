@@ -99,6 +99,10 @@ body {
   &__card {
     background-color: $white;
     border-radius: 0.9375rem;
+
+    &--accent {
+      background: $pink-gradient;
+    }
   }
 }
 
