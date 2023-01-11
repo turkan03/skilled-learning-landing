@@ -49,3 +49,13 @@ $line-x-small: 1.75rem;
 $p-medium: 1.125rem;
 $p-small: 1rem;
 $p-line: 1.75rem;
+
+// base style
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  font-size: $p-small;
+  line-height: 1.625rem;
+  color: $gray;
+}
