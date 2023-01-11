@@ -75,20 +75,6 @@ body {
   }
 }
 
-.card__header {
-  font-size: 1.25rem;
-  font-weight: 800;
-  line-height: 1.5625rem;
-  color: $dark-blue;
-
-  &--accent {
-    font-size: $header-x-small;
-    font-weight: 800;
-    line-height: 2rem;
-    color: $white;
-  }
-}
-
 // courses card
 
 .courses {
@@ -103,6 +89,29 @@ body {
     &--accent {
       background: $pink-gradient;
     }
+  }
+}
+
+.card {
+  position: relative;
+  &__header {
+    font-size: 1.25rem;
+    font-weight: 800;
+    line-height: 1.5625rem;
+    color: $dark-blue;
+
+    &--accent {
+      font-size: $header-x-small;
+      font-weight: 800;
+      line-height: 2rem;
+      color: $white;
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    left: 1.75rem;
+    top: -12%;
   }
 }
 

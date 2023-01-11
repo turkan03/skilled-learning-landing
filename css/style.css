@@ -65,6 +65,20 @@ body {
   color: #13183f;
 }
 
+.courses__list {
+  list-style: none;
+}
+.courses__card {
+  background-color: #fff;
+  border-radius: 0.9375rem;
+}
+.courses__card--accent {
+  background: linear-gradient(180deg, #ff6f48 0.04%, #f02aa6 100%);
+}
+
+.card {
+  position: relative;
+}
 .card__header {
   font-size: 1.25rem;
   font-weight: 800;
@@ -77,16 +91,10 @@ body {
   line-height: 2rem;
   color: #fff;
 }
-
-.courses__list {
-  list-style: none;
-}
-.courses__card {
-  background-color: #fff;
-  border-radius: 0.9375rem;
-}
-.courses__card--accent {
-  background: linear-gradient(180deg, #ff6f48 0.04%, #f02aa6 100%);
+.card__icon {
+  position: absolute;
+  left: 1.75rem;
+  top: -12%;
 }
 
 footer {
