@@ -1,0 +1,15 @@
+.wrapper {
+  min-width: 21.4375rem;
+  padding: 0 1rem;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  padding-top: 1rem;
+}
