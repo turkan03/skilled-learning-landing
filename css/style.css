@@ -137,4 +137,20 @@ footer {
   padding-bottom: 2.25rem;
 }
 
+.main {
+  display: grid;
+  row-gap: 1rem;
+}
+
+.hero {
+  padding-top: 2.375rem;
+  padding-bottom: 1.875rem;
+}
+.hero__header {
+  margin-bottom: 1.625rem;
+}
+.hero__text {
+  margin-bottom: 1.5rem;
+}
+
 /*# sourceMappingURL=style.css.map */

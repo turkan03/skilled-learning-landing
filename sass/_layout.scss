@@ -18,3 +18,20 @@
   padding-top: 2.25rem;
   padding-bottom: 2.25rem;
 }
+
+.main {
+  display: grid;
+  row-gap: 1rem;
+}
+
+.hero {
+  padding-top: 2.375rem;
+  padding-bottom: 1.875rem;
+
+  &__header {
+    margin-bottom: 1.625rem;
+  }
+  &__text {
+    margin-bottom: 1.5rem;
+  }
+}
