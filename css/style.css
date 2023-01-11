@@ -74,6 +74,10 @@ body {
   color: #fff;
 }
 
+footer {
+  background-color: #13183f;
+}
+
 .btn {
   text-decoration: none;
   padding: 0.875rem 1.9375rem;
