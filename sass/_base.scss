@@ -1,0 +1,51 @@
+// FONT
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap");
+
+// VARIABLES
+
+//color
+$gray-blue: #666ca3;
+$dark-blue: #13183f;
+$gray: #83869a;
+$pink: #f74780;
+$pastel-pink: #ffa7c3;
+$white: #fff;
+
+//gradient color *
+$pink-gradient: linear-gradient(180deg, #ff6f48 0.04%, #f02aa6 100%);
+$purple-gradient: linear-gradient(180deg, #4851ff 0%, #f02aa6 99.92%);
+
+$light-blue-gradient: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+
+// gradient for hover
+$pink-gradient-hover: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  ),
+  linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+
+$purple-gradient-hover: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  ),
+  linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+
+// typography
+
+$header-large: 3.5rem;
+$line-large: 4.375rem;
+
+$header-medium: 2.5rem;
+$line-medium: 3.1875rem;
+
+$header-small: 2rem;
+$line-small: 2.5rem;
+
+$header-x-small: 1.5rem;
+$line-x-small: 1.75rem;
+
+$p-medium: 1.125rem;
+$p-small: 1rem;
+$p-line: 1.75rem;
